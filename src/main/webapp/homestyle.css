@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+.menu{
+	background-image:url(images/homeshoe.jpg);
+	height: 100vh;
+	width:100%;
+	background-size: cover;
+	background-repeat:no repeat;
+}
+
+.menubar{
+	font-family: 'Times New Roman';
+	background:black;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	position:sticky;
+	top:0px;
+	left:0px;
+}
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color:white;
+	
+}
+.menu ul li{
+
+	width: 170px;
+	margin: 15px;
+	padding: 15px; 
+	
+}
+.menubar ul li:first-child{
+	font-weight: bold;
+	font-size:large;
+	margin-right: 300px;
+}	
+.menubar ul li:first-child:hover{
+	font-weight: bold;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu .fa{
+	margin-right: 8px;
+}
+.menu1{
+	display: none;
+	
+}
+.menu ul li:hover{
+	background:gray;
+	
+}
+.menu ul li a:hover{
+	color:black;
+}
+.menu ul li:hover .menu1{
+	color:white;
+	display: block;
+	position: absolute;
+	background:black;
+	margin-top:15px;
+	margin-left:15px;
+	
+}
+.menu ul li:hover .menu1 ul{
+	display:block;
+	margin: 10px;
+	background: black;
+	color:white;
+}
+.menu ul li:hover .menu1 ul li{
+	font-size: large;
+	margin-right: 20px;
+	width :150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	border-radius:0;
+	text-align: left;
+}
+.menu ul li:hover .menu1 ul li:last-child{
+	border-bottom:none;
+	}
+.menu ul li:hover .menu1 ul li a:hover{
+	background:gray;
+	color:black;
+	
+}
+#header{
+	padding:120px;
+	margin-left:50px;
+	margin-right: 100px;;
+	text-align: center;
+	vertical-align: text-bottom;
+	font-size:xx-large;
+	font-weight: bolder;
+	color:white;
+	
+}
+#header h1{
+	font-size:xxx-large;
+	
+}
+
+#header button{
+	color:black;
+	background-color:silver;  
+	font-size:large;
+	font-weight: bold;
+	padding:14px 80px 14px 65px;
+}
+#header button:hover{
+	color:black;
+	background-color:gray;
+	text-transform:uppercase;
+}
+#featured{
+	text-decoration:underline;
+	color:black;
+	font-size: xxxl-large;
+	padding: 45px;
+	text-align: center;
+}
+.class1{
+	background-color: gray;
+	width:230px;
+	text-align:center;
+	padding: 25px 20px;
+	border:4px;
+	margin-left:50px;
+	margin-bottom:100px;
+	box-shadow:30px 30px 34px rgba(0,0,0,0.03);
+	margin-right:80px;
+	
+}
+.class1:hover{
+	background-color:silver;
+}
+.class1 h3 a{
+
+	color:black;
+	text-decoration: none;
+	font-size: xx-large;
+}
+#famous{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#famous .class1:nth-child(1) h3:hover{
+	background-color:dodgerblue;
+	text-transform: lowercase;
+}
+#famous .class1:nth-child(2) h3:hover{
+	background-color:darkorange;
+	text-transform: lowercase;
+}
+#famous .class1:nth-child(3) h3:hover{
+	background-color:mediumblue;
+	text-transform: lowercase;
+}
+#famous .class1:nth-child(4) h3:hover{
+	background-color:mediumblue;
+	text-transform: lowercase;
+}
+
+.container{
+	background-image:url(images/homepagebanner.jpg);
+	height:60vh;
+	width:100%;
+	background-size: cover;
+	background-repeat:no repeat;
+}
+
+#about{
+	padding :45px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	font-size:xx-large;
+}
+#contact{
+	padding :45px;
+	background-color:pink;
+	color:black;
+	
+	
+}
+#contact pre{
+	font-size:xx-large;
+	font-weight: bold;
+	
+}
+#last h1 a{
+	font-size: x-large;
+	color:black;
+	text-decoration: none;
+	text-align:center;
+	align-items:center;
+}
+#last h1 a:hover{
+	text-decoration: underline;
+}
+
+#last .app a{
+	margin-right:50px;
+	color:black;
+	font-size: 30px;
+
+}
+
+#last .app a i:hover{
+	background-color: gray;
+	padding:5px 5px;
+}
+#last{
+		text-align:center;
+}
+.lastb{
+	margin-left: 50px;
+}
+.lastb a{
+	color:black;
+	text-decoration: none;
+	align-items:center;
+}
+
+.lastb a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
